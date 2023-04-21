@@ -194,5 +194,12 @@
     "answer": "(b+a)/2+a",
     "correct": false,
     "timestamp": 1682046265911
+  },
+  {
+    "name": "Midpoint of line",
+    "canonical": "a + (b - a) / 2",
+    "answer": "(b+a)/2+b",
+    "correct": false,
+    "timestamp": 1682046450642
   }
 ]
