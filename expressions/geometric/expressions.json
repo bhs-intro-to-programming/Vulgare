@@ -26,5 +26,12 @@
     "answer": "w*h",
     "correct": true,
     "timestamp": 1682046782690
+  },
+  {
+    "name": "Area of a triangle",
+    "canonical": "b*h/2",
+    "answer": ".5*b*h",
+    "correct": true,
+    "timestamp": 1682046790079
   }
 ]
