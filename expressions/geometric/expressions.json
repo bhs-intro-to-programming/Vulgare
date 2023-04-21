@@ -4,97 +4,153 @@
     "canonical": "4*s",
     "answer": "4*s",
     "correct": true,
-    "timestamp": 1682046766895
+    "timestamp": 1682043716351
+  },
+  {
+    "name": "Perimeter of a rectangle",
+    "canonical": "2 * (w + h)",
+    "answer": "2(w+h)",
+    "correct": false,
+    "timestamp": 1682043729047
   },
   {
     "name": "Perimeter of a rectangle",
     "canonical": "2 * (w + h)",
     "answer": "2*(w+h)",
     "correct": true,
-    "timestamp": 1682046773550
+    "timestamp": 1682043731688
   },
   {
     "name": "Area of a square",
     "canonical": "s**2",
     "answer": "s**2",
     "correct": true,
-    "timestamp": 1682046779241
+    "timestamp": 1682043737594
   },
   {
     "name": "Area of a rectangle",
     "canonical": "w*h",
     "answer": "w*h",
     "correct": true,
-    "timestamp": 1682046782690
+    "timestamp": 1682043742145
   },
   {
     "name": "Area of a triangle",
     "canonical": "b*h/2",
-    "answer": ".5*b*h",
+    "answer": "B*H/2",
+    "correct": false,
+    "timestamp": 1682043753662
+  },
+  {
+    "name": "Area of a triangle",
+    "canonical": "b*h/2",
+    "answer": "b*h/2",
     "correct": true,
-    "timestamp": 1682046790079
+    "timestamp": 1682043759712
   },
   {
     "name": "Area of a trapezoid",
     "canonical": "(b1 + b2)/2 * h",
-    "answer": "(b1+b2)*h/2",
+    "answer": "(b1+b2)/2*h",
     "correct": true,
-    "timestamp": 1682046800439
+    "timestamp": 1682044182827
   },
   {
     "name": "Area of a circle",
     "canonical": "Math.PI*r*r",
-    "answer": "r**2*Math.PI",
+    "answer": "Math.PI*r**2",
     "correct": true,
-    "timestamp": 1682046872154
+    "timestamp": 1682044194122
   },
   {
     "name": "Circumference of a circle",
     "canonical": "Math.PI * 2 * r",
     "answer": "Math.PI*2*r",
     "correct": true,
-    "timestamp": 1682046877572
+    "timestamp": 1682044204550
   },
   {
     "name": "The curved surface area of a cylinder",
     "canonical": "Math.PI * 2 * r * h",
-    "answer": "2*Math.PI*r*h",
-    "correct": true,
-    "timestamp": 1682046895491
-  },
-  {
-    "name": "Total surface area of a cylinder",
-    "canonical": "Math.PI * 2 * r * (h + r)",
-    "answer": "Math.PI*r*2(h+r)",
+    "answer": "Math.PI*r**2*h",
     "correct": false,
-    "timestamp": 1682046919990
+    "timestamp": 1682044218667
+  },
+  {
+    "name": "The curved surface area of a cylinder",
+    "canonical": "Math.PI * 2 * r * h",
+    "answer": "Math.PI*r*2*h",
+    "correct": true,
+    "timestamp": 1682044241188
   },
   {
     "name": "Total surface area of a cylinder",
     "canonical": "Math.PI * 2 * r * (h + r)",
-    "answer": "Math.PI*r*2*(r+h)",
+    "answer": "Math.PI*2*r*(r+h)",
     "correct": true,
-    "timestamp": 1682046955906
+    "timestamp": 1682044318107
   },
   {
     "name": "Volume of a Cylinder",
     "canonical": "Math.PI * r ** 2 * h",
     "answer": "Math.PI*r**2*h",
     "correct": true,
-    "timestamp": 1682047303103
+    "timestamp": 1682044347756
   },
   {
     "name": "The curved surface area of a cone from slant height",
     "canonical": "Math.PI * r * s",
-    "answer": "r*s*Math.PI",
+    "answer": "Math.PI*r*s",
     "correct": true,
-    "timestamp": 1682047333529
+    "timestamp": 1682044369628
   },
   {
     "name": "Total surface area of a cone from slant height",
     "canonical": "Math.PI * r * (r + s)",
-    "answer": "r*Math.PI*s+Math.PI*r**2",
+    "answer": "Math.PI*r*s+Math.PI*r**2",
     "correct": true,
-    "timestamp": 1682047360870
+    "timestamp": 1682044905985
+  },
+  {
+    "name": "Total surface area of a cone from height",
+    "canonical": "Math.PI * r * (r + Math.sqrt(h ** 2 + r ** 2))",
+    "answer": "Math.sqrt(r**2+h**2)*Math.Pi*r+Math.PIr**2",
+    "correct": false,
+    "timestamp": 1682045582376
+  },
+  {
+    "name": "Total surface area of a cone from height",
+    "canonical": "Math.PI * r * (r + Math.sqrt(h ** 2 + r ** 2))",
+    "answer": "Math.sqrt(r**2+h**2)*2*Math.Pi*r+Math.PIr**2",
+    "correct": false,
+    "timestamp": 1682045586177
+  },
+  {
+    "name": "Total surface area of a cone from slant height",
+    "canonical": "Math.PI * r * (r + s)",
+    "answer": "Math.sqrt(r**2+h**2)*h+Math.PIr**2",
+    "correct": false,
+    "timestamp": 1682045649885
+  },
+  {
+    "name": "Total surface area of a cone from height",
+    "canonical": "Math.PI * r * (r + Math.sqrt(h ** 2 + r ** 2))",
+    "answer": "Math.sqrt(r**2+h**2)*Math.PI*r*h+Math.PIr**2",
+    "correct": false,
+    "timestamp": 1682045685882
+  },
+  {
+    "name": "Total surface area of a cone from height",
+    "canonical": "Math.PI * r * (r + Math.sqrt(h ** 2 + r ** 2))",
+    "answer": "Math.sqrt(r**2+h**2)*Math.PI*r*h+Math.PI*r**2",
+    "correct": false,
+    "timestamp": 1682045708210
+  },
+  {
+    "name": "Total surface area of a cone from height",
+    "canonical": "Math.PI * r * (r + Math.sqrt(h ** 2 + r ** 2))",
+    "answer": "Math.sqrt(r**2+h**2)*Math.PI*r+Math.PI*r**2",
+    "correct": true,
+    "timestamp": 1682047578399
   }
 ]
