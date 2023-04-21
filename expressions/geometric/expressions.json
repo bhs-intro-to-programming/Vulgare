@@ -33,5 +33,12 @@
     "answer": ".5*b*h",
     "correct": true,
     "timestamp": 1682046790079
+  },
+  {
+    "name": "Area of a trapezoid",
+    "canonical": "(b1 + b2)/2 * h",
+    "answer": "(b1+b2)*h/2",
+    "correct": true,
+    "timestamp": 1682046800439
   }
 ]
