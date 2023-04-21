@@ -40,5 +40,12 @@
     "answer": "6-4",
     "correct": true,
     "timestamp": 1682043136235
+  },
+  {
+    "name": "Sally's even more apples",
+    "canonical": "6432 - 4000",
+    "answer": "6_432-4_000",
+    "correct": true,
+    "timestamp": 1682043150170
   }
 ]
