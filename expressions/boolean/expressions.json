@@ -19,5 +19,12 @@
     "answer": "enoughSleep && keepingUP",
     "correct": false,
     "timestamp": 1682050003846
+  },
+  {
+    "name": "Doing well?",
+    "canonical": "enoughSleep && keepingUp",
+    "answer": "enoughSleep && keepingUp",
+    "correct": true,
+    "timestamp": 1682050008629
   }
 ]
