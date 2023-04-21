@@ -12,5 +12,12 @@
     "answer": ".2e2+2.0",
     "correct": false,
     "timestamp": 1682043063752
+  },
+  {
+    "name": "Two plus two",
+    "canonical": "2 + 2",
+    "answer": "2.0+2.0",
+    "correct": true,
+    "timestamp": 1682043073660
   }
 ]
