@@ -159,5 +159,12 @@
     "answer": "1/3*h*Math.PI*r**2",
     "correct": true,
     "timestamp": 1682045916542
+  },
+  {
+    "name": "Surface area of a sphere",
+    "canonical": "4 * Math.PI * r ** 2",
+    "answer": "4*Math.PI*r**2",
+    "correct": true,
+    "timestamp": 1682046078919
   }
 ]
