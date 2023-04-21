@@ -19,5 +19,12 @@
     "answer": "2.0+2.0",
     "correct": true,
     "timestamp": 1682043073660
+  },
+  {
+    "name": "1337 times 32",
+    "canonical": "1337 * 32",
+    "answer": "1.337e+3*32",
+    "correct": true,
+    "timestamp": 1682043118271
   }
 ]
