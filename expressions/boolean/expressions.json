@@ -47,5 +47,12 @@
     "answer": "enoughSleep && !keepingUp",
     "correct": false,
     "timestamp": 1682561670510
+  },
+  {
+    "name": "Energetic?",
+    "canonical": "enoughSleep && !justWorkedOut",
+    "answer": "enoughSleep && !justWorkedOut",
+    "correct": true,
+    "timestamp": 1682561686490
   }
 ]
