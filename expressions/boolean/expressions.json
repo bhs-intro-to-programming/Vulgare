@@ -96,5 +96,12 @@
     "answer": "dark && sleepy",
     "correct": false,
     "timestamp": 1682566983896
+  },
+  {
+    "name": "Time to sleep?",
+    "canonical": "!sleepy || !dark",
+    "answer": "!dark && !sleepy",
+    "correct": false,
+    "timestamp": 1682567009094
   }
 ]
